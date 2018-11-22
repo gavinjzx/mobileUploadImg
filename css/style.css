@@ -1,0 +1,8 @@
+#previewImg {
+    border: 1px solid #def;
+    padding: 2px;
+}
+
+html, body {
+    touch-action: none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>上传图片</title>
+    <script src="js/upload.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<input type="file" id="btnSelectImg" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg">
+<div>
+    <canvas id="previewImg">
+        您当前的浏览器不支持canvas。
+    </canvas>
+    <div id="message">提示信息:</div>
+</div>
+<script>
+    upload.init({
+        eleFileID: "#btnSelectImg",//上传按钮ID
+        canvasID: "#previewImg",//canvasID
+        canvasWidth: 300,//生成canvas宽度
+        canvasHeight: 300,//生成canvas高度
+        messageID: "#message"
+    })
+</script>
+</body>
+</html>
