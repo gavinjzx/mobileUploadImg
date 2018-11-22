@@ -4,7 +4,7 @@
 ````
 # 演示地址
 [http://atigege.com/case/web/mobileUploadImg/]
-![image](https://raw.githubusercontent.com/gavinjzx/mobileUploadImg/master/qr.png)
+![image](https://raw.githubusercontent.com/gavinjzx/mobileUploadImg/master/qrcode.png)
 # 使用说明
 1. 页面添加file元素
 ````
