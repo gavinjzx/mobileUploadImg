@@ -3,8 +3,8 @@
 利用canvas 实体前端（客户端）图片处理，可移动，放大缩小，裁剪，原生JS编写。
 ````
 # 演示地址
-    
-
+[http://atigege.com/case/web/mobileUploadImg/]
+![image](https://raw.githubusercontent.com/gavinjzx/mobileUploadImg/master/qr.png)
 # 使用说明
 1. 页面添加file元素
 ````
